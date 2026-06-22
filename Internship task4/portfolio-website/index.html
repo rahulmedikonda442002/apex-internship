@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rahul Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Rahul</h2>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="hero">
+    <h1>Hello, I'm Rahul</h1>
+    <h2>Frontend Developer</h2>
+    <p>Passionate about building responsive and interactive web applications.</p>
+    <a href="#projects">View Projects</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate web developer skilled in HTML, CSS, JavaScript, ReactJS, and Spring Boot.
+        I enjoy building modern web applications with responsive UI.
+    </p>
+
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>ReactJS</span>
+        <span>Spring Boot</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <div class="card">
+            <h3>To-Do App</h3>
+            <p>Task management app with Local Storage.</p>
+            <a href="../todo-localstorage/index.html">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>Product Listing Page</h3>
+            <p>Filter and sort products dynamically.</p>
+            <a href="../product-listing/index.html">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="successMessage"></p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

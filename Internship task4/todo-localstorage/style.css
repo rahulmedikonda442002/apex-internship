@@ -1,0 +1,15 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    font-family:Arial;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:400px;
+}
